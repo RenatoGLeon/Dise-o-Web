@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+<script>
+    let max = 30;
+    let min = 10;
+    let n;
+    let text = '';
+
+    for (i = 1; i <= 10; i++){
+        n = parseInt(Math.random() * (max - min + 1) + min);
+        text +=n + ' ';
+
+        text += '*'.repeat(n);
+        text += '<br>';
+    }
+    document.write(text);
+</script>
+</head>
+<body>
+    
+</body>
+</html>

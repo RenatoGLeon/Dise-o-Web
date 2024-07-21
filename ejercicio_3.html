@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <script>
+        let hora = new Date().getHours();
+        let saludo;
+        
+        if(hora < 12){
+            saludo = "¡Buenos días!";
+        }else if(hora >= 12 && hora < 19){
+            saludo = "¡Buenas tardes!";
+        }else{
+            saludo = "¡Buenas noches!";
+        }
+
+        document.write('Son las ' + hora + ' horas, ' + saludo);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
